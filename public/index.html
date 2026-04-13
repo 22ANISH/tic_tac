@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tic Tac Toe</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Tic Tac Toe 🎮</h1>
+
+  <input type="text" id="playerName" placeholder="Enter your name">
+  <button onclick="joinGame()">Join Game</button>
+
+  <h2 id="status">Waiting...</h2>
+
+  <div id="board"></div>
+
+  <!-- Restart Button -->
+  <button onclick="restartGame()">Restart 🔄</button>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="script.js"></script>
+
+</body>
+</html>
